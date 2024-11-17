@@ -1,0 +1,51 @@
+.whole{
+    display: flex;
+    flex-grow: 1, 2;
+}
+
+.left{
+    display: flex;
+    border: 2px solid black;
+    flex-direction: column;
+}
+
+.image{
+    display: flex;
+    border: 2px solid black;
+}
+
+.logo{
+    display: flex;
+    border: 2px solid black;
+}
+
+.credit{
+    display: flex;
+    border: 2px solid black;
+}
+
+.right{
+    display: flex;
+    border: 2px solid black;
+    flex-direction: column;
+}
+
+.tagText{
+    display: flex;
+    border: 2px solid black;
+}
+
+.form{
+    display: flex;
+    border: 2px solid black;
+}
+
+.button{
+    display: flex;
+    border: 2px solid black;
+}
+
+.login{
+    display: flex;
+    border: 2px solid black;
+}
