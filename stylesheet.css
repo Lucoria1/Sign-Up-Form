@@ -70,11 +70,13 @@ a.link{
     flex-grow: 1;
     flex-direction: column;
     justify-content: center;
-    padding: 20px;
+    padding: 30px;
 }
 
 .tagContent{
     text-wrap: wrap;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .form{
@@ -98,4 +100,30 @@ a.link{
 .login{
     display: flex;
     border: 2px solid black;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+
+.formWhole{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-grow: 1;
+}
+
+.formLeft, .formRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+legend{
+    font-size: 20px;
+    font-weight: bold;
 }
