@@ -1,43 +1,62 @@
-.whole{
+body{
     display: flex;
-    flex-grow: 1, 2;
+    min-height: 100vh;
+    min-width: 100vw;
+    border: 2px solid black;
 }
 
 .left{
+    background-image: url("Sign-up/images/Sign-Up\ Background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     border: 2px solid black;
     flex-direction: column;
-}
-
-.image{
-    display: flex;
-    border: 2px solid black;
+    flex-grow: 1;
+    justify-content: space-between;
 }
 
 .logo{
     display: flex;
     border: 2px solid black;
+    justify-content: center;
 }
 
 .credit{
     display: flex;
     border: 2px solid black;
+    justify-content: center;
+    color: white;
+}
+
+a.link{
+    color: white;
 }
 
 .right{
     display: flex;
     border: 2px solid black;
     flex-direction: column;
+    flex-grow: 2
 }
 
 .tagText{
     display: flex;
     border: 2px solid black;
+    flex-grow: 1
 }
 
 .form{
     display: flex;
     border: 2px solid black;
+    flex-grow: 0.8
+}
+
+.bottom{
+    display: flex;
+    border: 2px solid black;
+    flex-direction: column;
+    flex-grow: 1
 }
 
 .button{
